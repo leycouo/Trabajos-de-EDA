@@ -36,7 +36,7 @@ int main() {
     torresDeHanoi(3, 'A', 'B', 'C');
 
     std::cout << "\n--- Torres de Hanói (4 Discos) ---" << std::endl;
-    torresDeHanoi(4, "Origen", "Auxiliar", "Destino"); // Puedes usar nombres más descriptivos
+    torresDeHanoi(4, 'Origen', 'Auxiliar', 'Destino'); // Puedes usar nombres más descriptivos
 
     return 0;
 }
